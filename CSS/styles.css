@@ -126,14 +126,14 @@ textarea,
 .services__container {
   display: flex;
   flex-direction: column;
-  height: 1668px;
+  height: 1026px;
   margin-bottom: 30px;
 }
 
 .services__service {
   display: flex;
   width: 100%;
-  height: 556px;
+  height: 342px;
   background-position: center;
   background-size: cover;
   padding: 2em;
@@ -142,14 +142,15 @@ textarea,
 .service__h3 {
   margin-top: auto;
   color: white;
-  font-size: 160px;
+  font-size: 80px;
   font-weight: 500;
-  line-height: 146px;
+  line-height: 100px;
   letter-spacing: -0.05em;
 }
 
 .banner1 {
   background-image: url("../assets/banner1.png");
+  background-position: right;
 }
 
 .banner2 {
@@ -260,6 +261,19 @@ textarea {
     letter-spacing: -0.05em;
   }
 
+  .services__container {
+    min-height: 1668px;
+  }
+
+  .service__h3 {
+    line-height: 146px;
+    font-size: 130px;
+  }
+
+  .services__service {
+    min-height: 556px;
+  }
+
   .footer {
     height: 300px;
   }
@@ -289,5 +303,9 @@ textarea {
 
   .hero__text-div3 {
     margin: 0 60px 0 auto;
+  }
+
+  .service__h3 {
+    font-size: 160px;
   }
 }
