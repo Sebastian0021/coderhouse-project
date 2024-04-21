@@ -1,0 +1,38 @@
+.team__div-container {
+  display: flex;
+  height: 2500px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.team__member-images-container1,
+.team__member-images-container2 {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.team__member-images-container1 {
+  justify-content: space-between;
+}
+
+.team__member-images-container2 {
+  height: 70%;
+}
+
+.team__member-container {
+  height: 750px;
+  width: 720px;
+}
+
+.team__member-image {
+  width: 100%;
+}
+
+.team__info-container {
+  display: flex;
+  justify-content: space-around;
+}

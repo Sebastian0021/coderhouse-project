@@ -1,41 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body,
 button,
 textarea {
   font-family: "Roboto", sans-serif;
   color: #37003c;
 }
-
-/* header{
-    position: fixed;
-    width: 100%;
-    top: 0;
-    background-color: white;
-    height: 80px;
-    display: flex;
-    padding: 15px 39px;
-    justify-content: space-between;
-    align-items: center;
-} */
-
-.header__logo {
-  height: 37px;
-  width: 133px;
-}
-
-/* nav > ul{
-    display: flex;
-    height: 100%;
-    align-items: center;
-    list-style-type: none;
-} */
 
 li {
   font-family: Roboto;
@@ -46,22 +15,6 @@ li {
   margin-right: 30px;
 }
 
-a {
-  text-decoration: none;
-}
-
-a:link {
-  color: inherit;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* .container{
-    padding: 0 30px;
-} */
-
 h2 {
   margin: 200px 0 0.5em;
   font-family: Roboto;
@@ -69,19 +22,6 @@ h2 {
   font-weight: 400;
   line-height: 55px;
   letter-spacing: -0.03em;
-}
-
-.hero__img-container {
-  width: 100%;
-  height: 700px;
-  background-image: url("../assets/home.png");
-  background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;
-}
-
-.hero__text-container {
-  display: none;
 }
 
 .hero__text,
@@ -121,48 +61,26 @@ textarea,
   letter-spacing: -0.025em;
 }
 
-/* __-services__- */
-
-.services__container {
-  display: flex;
-  flex-direction: column;
-  height: 1026px;
-  margin-bottom: 30px;
+.header__logo {
+  height: 37px;
+  width: 133px;
 }
 
-.services__service {
-  display: flex;
-  width: 100%;
-  height: 342px;
-  background-position: center;
-  background-size: cover;
-  padding: 2em;
+a {
+  text-decoration: none;
 }
 
-.service__h3 {
-  margin-top: auto;
-  color: white;
-  font-size: 80px;
-  font-weight: 500;
-  line-height: 100px;
-  letter-spacing: -0.05em;
+a:link {
+  color: inherit;
 }
 
-.banner1 {
-  background-image: url("../assets/banner1.png");
-  background-position: right;
+a:hover {
+  text-decoration: underline;
 }
 
-.banner2 {
-  background-image: url("../assets/banner2.png");
-}
-
-.banner3 {
-  background-image: url("../assets/banner3.png");
-}
-
-/* __-contact__- */
-
+/* .container{
+    padding: 0 30px;
+} */
 .contact__form-container {
   height: 1000px;
   background-color: #37003c;
@@ -205,7 +123,61 @@ textarea {
   padding: 1em;
 }
 
-/* __-team__- */
+.hero__img-container {
+  width: 100%;
+  height: 700px;
+  background-image: url("../assets/home.png");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.hero__text-container {
+  display: none;
+}
+
+.partners__image {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.services__container {
+  display: flex;
+  flex-direction: column;
+  height: 1026px;
+  margin-bottom: 30px;
+}
+
+.services__service {
+  display: flex;
+  width: 100%;
+  height: 342px;
+  background-position: center;
+  background-size: cover;
+  padding: 2em;
+}
+
+.service__h3 {
+  margin-top: auto;
+  color: white;
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 100px;
+  letter-spacing: -0.05em;
+}
+
+.banner1 {
+  background-image: url("../assets/banner1.png");
+  background-position: right;
+}
+
+.banner2 {
+  background-image: url("../assets/banner2.png");
+}
+
+.banner3 {
+  background-image: url("../assets/banner3.png");
+}
 
 .team__div-container {
   display: flex;
@@ -246,13 +218,6 @@ textarea {
   justify-content: space-around;
 }
 
-/*__-partners__-*/
-
-.partners__image {
-  width: 100%;
-  margin-bottom: 50px;
-}
-
 /* md */
 @media screen and (min-width: 768px) {
   h2 {
@@ -260,25 +225,20 @@ textarea {
     line-height: 70px;
     letter-spacing: -0.05em;
   }
-
   .services__container {
     min-height: 1668px;
   }
-
   .service__h3 {
     line-height: 146px;
     font-size: 130px;
   }
-
   .services__service {
     min-height: 556px;
   }
-
   .footer {
     height: 300px;
   }
 }
-
 /* lg */
 @media screen and (min-width: 992px) {
   h2 {
@@ -296,16 +256,15 @@ textarea {
   .hero__text-div {
     width: 350px;
   }
-
   .hero__text-div2 {
     margin-left: 30px;
   }
-
   .hero__text-div3 {
     margin: 0 60px 0 auto;
   }
-
   .service__h3 {
     font-size: 160px;
   }
 }
+
+/*# sourceMappingURL=styles.css.map */

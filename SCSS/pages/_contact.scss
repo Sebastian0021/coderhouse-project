@@ -1,0 +1,41 @@
+.contact__form-container {
+  height: 1000px;
+  background-color: $purple;
+  display: flex;
+  justify-content: center;
+}
+
+.contact__form {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+}
+
+.contact__input {
+  width: 100%;
+  height: 102px;
+  padding: 1em;
+}
+
+.ligth {
+  background-color: white;
+  color: $purple;
+}
+
+.contact__button {
+  width: 240px;
+  height: 93px;
+  background: #fff422;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: -0.025em;
+  text-decoration: underline;
+}
+
+textarea {
+  height: 446px;
+  padding: 1em;
+}

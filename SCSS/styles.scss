@@ -1,0 +1,68 @@
+@import "utilities/variables";
+
+@import "base/typography";
+
+@import "layout/footer", "layout/header";
+
+@import "components/links";
+
+@import "pages/contact", "pages/home", "pages/partners", "pages/services",
+  "pages/team";
+
+/* md */
+
+@media screen and (min-width: 768px) {
+  h2 {
+    font-size: 70px;
+    line-height: 70px;
+    letter-spacing: -0.05em;
+  }
+
+  .services__container {
+    min-height: 1668px;
+  }
+
+  .service__h3 {
+    line-height: 146px;
+    font-size: 130px;
+  }
+
+  .services__service {
+    min-height: 556px;
+  }
+
+  .footer {
+    height: 300px;
+  }
+}
+
+/* lg */
+@media screen and (min-width: 992px) {
+  h2 {
+    font-size: 90px;
+    line-height: 90px;
+    letter-spacing: -0.05em;
+  }
+  .hero__text-container {
+    display: flex;
+    margin-top: 30px;
+    height: 300px;
+    width: 100%;
+    margin: 25px 0;
+  }
+  .hero__text-div {
+    width: 350px;
+  }
+
+  .hero__text-div2 {
+    margin-left: 30px;
+  }
+
+  .hero__text-div3 {
+    margin: 0 60px 0 auto;
+  }
+
+  .service__h3 {
+    font-size: 160px;
+  }
+}
