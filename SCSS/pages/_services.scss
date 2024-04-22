@@ -24,14 +24,32 @@
 }
 
 .banner1 {
-  background-image: url("../assets/banner1.png");
   background-position: right;
 }
 
-.banner2 {
-  background-image: url("../assets/banner2.png");
+@for $i from 1 to 4 {
+  .banner#{$i} {
+    background-image: url("../assets/banner#{$i}.png");
+  }
 }
 
-.banner3 {
-  background-image: url("../assets/banner3.png");
+@media screen and (min-width: $md) {
+  .services__container {
+    min-height: 1668px;
+  }
+
+  .service__h3 {
+    line-height: 146px;
+    font-size: 130px;
+  }
+
+  .services__service {
+    min-height: 556px;
+  }
+}
+
+@media screen and (min-width: $lg) {
+  .service__h3 {
+    font-size: 160px;
+  }
 }
