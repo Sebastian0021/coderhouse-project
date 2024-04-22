@@ -29,12 +29,42 @@ h2 {
 .container__button,
 textarea,
 .team__info {
-  font-size: 25px;
+  font-size: 1.5em;
   font-weight: 400;
-  line-height: 30px;
-  letter-spacing: -0.025em;
+  line-height: 20px;
 }
 
+@media screen and (min-width: 768px) {
+  h2 {
+    font-size: 70px;
+    line-height: 70px;
+    letter-spacing: -0.05em;
+  }
+  .hero__text,
+  .contact__input,
+  .container__button,
+  textarea,
+  .team__info {
+    font-size: 1.45em;
+    line-height: 28px;
+  }
+}
+@media screen and (min-width: 992px) {
+  h2 {
+    font-size: 90px;
+    line-height: 90px;
+    letter-spacing: -0.05em;
+  }
+  .hero__text,
+  .contact__input,
+  .container__button,
+  textarea,
+  .team__info {
+    font-size: 1.6em;
+    line-height: 30px;
+    letter-spacing: -0.025em;
+  }
+}
 .footer {
   height: 400px;
   width: 100%;
@@ -61,6 +91,11 @@ textarea,
   letter-spacing: -0.025em;
 }
 
+@media screen and (min-width: 768px) {
+  .footer {
+    height: 300px;
+  }
+}
 .header__logo {
   height: 37px;
   width: 133px;
@@ -89,15 +124,15 @@ a:hover {
 }
 
 .contact__form {
-  width: 700px;
+  min-width: 200px;
   display: flex;
   flex-direction: column;
   height: 100%;
   justify-content: space-around;
+  padding: 1em;
 }
 
 .contact__input {
-  width: 100%;
   height: 102px;
   padding: 1em;
 }
@@ -136,6 +171,24 @@ textarea {
   display: none;
 }
 
+@media screen and (min-width: 992px) {
+  .hero__text-container {
+    display: flex;
+    margin-top: 30px;
+    height: 300px;
+    width: 100%;
+    margin: 25px 0;
+  }
+  .hero__text-div {
+    width: 350px;
+  }
+  .hero__text-div2 {
+    margin-left: 30px;
+  }
+  .hero__text-div3 {
+    margin: 0 60px 0 auto;
+  }
+}
 .partners__image {
   width: 100%;
   margin-bottom: 50px;
@@ -167,8 +220,11 @@ textarea {
 }
 
 .banner1 {
-  background-image: url("../assets/banner1.png");
   background-position: right;
+}
+
+.banner1 {
+  background-image: url("../assets/banner1.png");
 }
 
 .banner2 {
@@ -179,9 +235,26 @@ textarea {
   background-image: url("../assets/banner3.png");
 }
 
+@media screen and (min-width: 768px) {
+  .services__container {
+    min-height: 1668px;
+  }
+  .service__h3 {
+    line-height: 146px;
+    font-size: 130px;
+  }
+  .services__service {
+    min-height: 556px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .service__h3 {
+    font-size: 160px;
+  }
+}
 .team__div-container {
   display: flex;
-  height: 2500px;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
@@ -189,7 +262,7 @@ textarea {
 .team__member-images-container1,
 .team__member-images-container2 {
   height: 100%;
-  width: 50%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -205,8 +278,8 @@ textarea {
 }
 
 .team__member-container {
-  height: 750px;
-  width: 720px;
+  max-width: 750px;
+  max-width: 720px;
 }
 
 .team__member-image {
@@ -216,54 +289,17 @@ textarea {
 .team__info-container {
   display: flex;
   justify-content: space-around;
+  margin-top: 1em;
 }
 
-/* md */
 @media screen and (min-width: 768px) {
-  h2 {
-    font-size: 70px;
-    line-height: 70px;
-    letter-spacing: -0.05em;
+  .team__div-container {
+    flex-direction: row;
+    max-height: 2500px;
   }
-  .services__container {
-    min-height: 1668px;
-  }
-  .service__h3 {
-    line-height: 146px;
-    font-size: 130px;
-  }
-  .services__service {
-    min-height: 556px;
-  }
-  .footer {
-    height: 300px;
-  }
-}
-/* lg */
-@media screen and (min-width: 992px) {
-  h2 {
-    font-size: 90px;
-    line-height: 90px;
-    letter-spacing: -0.05em;
-  }
-  .hero__text-container {
-    display: flex;
-    margin-top: 30px;
-    height: 300px;
-    width: 100%;
-    margin: 25px 0;
-  }
-  .hero__text-div {
-    width: 350px;
-  }
-  .hero__text-div2 {
-    margin-left: 30px;
-  }
-  .hero__text-div3 {
-    margin: 0 60px 0 auto;
-  }
-  .service__h3 {
-    font-size: 160px;
+  .team__member-images-container1,
+  .team__member-images-container2 {
+    width: 48%;
   }
 }
 
