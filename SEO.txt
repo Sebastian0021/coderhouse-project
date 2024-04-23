@@ -1,0 +1,115 @@
+IMAGENES: 
+    
+    team-member.png =   Current     720 x 693       366.74 KB   PNG ✅
+                        Original    1387 x 1335     2.42 MB     PNG ❌ 
+
+    team-member1.png =  Current     721 x 693	    178.08 KB   PNG ✅
+                        Original    1388 x 1335	    1.11 MB     PNG ❌
+
+    team-member2.png =  Current	    720 x 693	    212.74 KB	PNG ✅
+                        Original	694 x 668	    516.88 KB	PNG ❌
+    
+    team-member3.png =  Current	    720 x 692	    88.88 KB	PNG ✅
+                        Original	1388 x 1335	    638.89 KB	PNG ❌
+
+    team-member4.png =  Current	    720 x 693	    168.41 KB	PNG ✅
+                        Original	694 x 668	    326.61 KB	PNG ❌
+    
+    banner1.png =       Current	    1281 x 500	    52.76 KB	PNG ✅
+                        Original	2848 x 1112	    108.99 KB	PNG ❌
+    
+    banner2.png =       Current	    1281 x 500	    427.67 KB	PNG ✅
+                        Original	2848 x 1112	    4.22 MB	    PNG ❌
+
+    banner3.png =       Current	    1282 x 500	    240.70 KB	PNG ✅
+                        Original	2850 x 1112	    1.04 MB	    PNG ❌
+
+    home.png =          Original	2998 x 1318	    123.62 KB	PNG ✅
+
+    logo-deep-purple.png =  Current	    133 x 37	2.30 KB	    PNG ✅
+                            Original	266 x 74	9.19 KB	    PNG ❌
+
+    logo-deep-white.png =   Current	    143 x 37	2.72 KB	    PNG ✅
+                            Original	294 x 76	6.38 KB	    PNG ❌
+
+    partners-banner.png =   Current	    2000 x 940	226.14 KB	PNG ✅
+                            Original	2856 x 1342	439.38 KB	PNG
+
+    partners-banner-mobile= Current	    828 x 1919	98.52 KB	PNG ✅
+                            Original	828 x 1919	227.01 KB	PNG ❌
+
+./assets => Original 11.1 MB (11,677,455 bytes) ❌
+            Current  2.01 MB (2,115,232 bytes)  ✅
+
+
+
+HTML=
+
+    TÍTULOS : Cambié los títulos de las páginas para que sean más decriptivas
+    con us contenido. Antes se llamaban todas 'Deep', ahora se llaman:
+    'Deep - {nombre de la página en la que estoy}'.
+
+    <meta> => Agregué a todas siguientes etiquetas meta: 
+
+        index.html =    
+            <meta name="description" content=" Deep es una agencia de 
+            marketing communications que profundiza en comprender el negocio 
+            de sus clientes.">
+
+            <meta name="keywords" content="Marketing Communications, Marketing, Análisis de datos,
+            Creación de contenido, Venezuela, Panamá">
+
+        nosotros.html = 
+            <meta name="description" content="Nosotros, Nuestro equipo Rafael Rojas 
+            Alas Managing Partner Jacqueline Abello de Marty VP Cuentas Clave Vladimir 
+            Carvajal VP Creativo Eduardo Marín Experto en Desarrollo Web y SEO 
+            Experto en Desarrollo Web">
+
+            <meta name="keywords" content="Rafael Rojas Alas, Managing Partner, 
+            Jacqueline Abello de Marty, VP Cuentas Clave, Vladimir Carvajal, 
+            VP Creativo, Eduardo Marín, Experto en Desarrollo Web y SEO, Diana Vera,
+            VP Finanzas, Panamá, PH Oceania Business Plaza, Torre 1000, Piso 49, Oficina F,
+            Punta Pacífica, Ciudad de Panamá, Panamá, Teléfono, Deep Caracas, Torre Roraima,
+            Av. Francisco de Miranda, Piso 15, Oficina 15A, Campo Alegre, Caracas, Venezuela,">
+
+            
+
+        contacto.html = 
+            <meta name="description" content="Contacto y ubicación de oficinas en Panamá y Venezuela.
+            Teléfonos y dirección de correo electrónico para consultas empresariales.">
+
+            <meta name="keywords" content="Comunícate, Nombre, Apellido, Correo Electrónico,
+            Interesado, Comentarios, Enviar, Panamá, PH Oceania Business Plaza, Torre 1000, 
+            Piso 49, Oficina F, Punta Pacífica, Ciudad de Panamá, Teléfono, Deep Caracas, 
+            Torre Roraima, Av. Francisco de Miranda, Piso 15, Oficina 15A, Campo Alegre, 
+            Caracas, Venezuela">
+
+
+            
+        
+        servicios.html = 
+            <meta name="description" content="Servicios de diseño y mercadeo digital en Panamá y Venezuela.
+            Especializados en UX/UI, branding y estrategias de mercadeo digital.">
+
+
+            <meta name="keywords" content="UX, UI, Mercadeo Digital, Branding, Panamá, Caracas, Digital Marketing,
+            User Experience, User Interface, Business Plaza, Campo Alegre">
+
+
+        partners.html = 
+            <meta name="description" content="Nuestros partners, las grandes empresas que
+            confian en nuestro servicio y nuestra experiencia.">
+
+            <meta name="keywords" content="Servicios, Partners, Mercantil, Disney, abodee, LOCKEY, Fox, BlueSky, 
+            UIBank, Nakama, thecoolbridge, ASIPI, WAGO, bfi, clusterlat, Panamá, Oceania Business Plaza,
+            Punta Pacífica, Ciudad de Panamá, Deep Caracas, Torre Roraima, Av. Francisco de Miranda, Campo Alegre,
+            Caracas, Venezuela">
+
+    <h2>,<h3> => <h1>, <h2> (Convertí los h2 en h1 y los h3 en h2 para complir el orden de h1,h2,h3 y así mejorar
+                            el SEO de la página)
+
+    <strong> => Utilicé strong en las páginas para resaltar palabras claves
+
+    alt => Agrgé descripción a las imagenes con alt
+
+
