@@ -14,7 +14,7 @@
   padding: 2em;
 }
 
-.service__h3 {
+.service__h2 {
   margin-top: auto;
   color: white;
   font-size: 80px;
@@ -38,7 +38,7 @@
     min-height: 1668px;
   }
 
-  .service__h3 {
+  .service__h2 {
     line-height: 146px;
     font-size: 130px;
   }
@@ -49,7 +49,7 @@
 }
 
 @media screen and (min-width: $lg) {
-  .service__h3 {
+  .service__h2 {
     font-size: 160px;
   }
 }
